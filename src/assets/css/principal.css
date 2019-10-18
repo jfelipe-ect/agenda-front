@@ -3,6 +3,7 @@
   background-color: #212224;
   height: 60px;
   align-items: center;
+  color: white;
 
 }
 
@@ -10,5 +11,25 @@
 
   background-color: rgb(66, 66, 66);
   height: 60px;
+  align-items: center;
+  color: white;
 
 }
+
+#corpo1 {
+  background-color: #3864bb;
+
+}
+
+
+#corpo2 {
+
+}
+
+.letraNegritoG{
+  font-size: 20pt;
+  font-weight: bold;
+  color: white;
+}
+
+.
