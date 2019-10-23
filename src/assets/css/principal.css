@@ -18,6 +18,7 @@
 
 #corpo1 {
   background-color: #3864bb;
+  height: 900px;
 
 }
 
@@ -32,4 +33,18 @@
   color: white;
 }
 
-.
+p { 
+  text-align: justify;
+  color: white;
+  font-size: 14pt;
+ }
+
+ .letraBrancaP{
+   color: white;
+   font-size: 12pt;
+ }
+
+ small{
+  text-align: right;
+  color: white;
+ }
