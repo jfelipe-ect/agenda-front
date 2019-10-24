@@ -17,14 +17,20 @@
 }
 
 #corpo1 {
-  background-color: #3864bb;
   height: 900px;
-
 }
 
 
 #corpo2 {
+  height: 80px;
+  background-color: #305bb3;
+  align-items: center;
+}
 
+#labelCorpo2 {
+  font-size: 30pt;
+  color: white;
+  font-weight: bold;
 }
 
 .letraNegritoG{
@@ -33,7 +39,7 @@
   color: white;
 }
 
-p { 
+p {
   text-align: justify;
   color: white;
   font-size: 14pt;
@@ -48,3 +54,32 @@ p {
   text-align: right;
   color: white;
  }
+
+ #itemMenu1, #itemMenu2, #itemMenu3 {
+   align-items: center;
+   text-align: center;
+   background-color: #2a4d94;
+   font-weight: bold;
+   height: 80px;
+ }
+
+ #itemMenu2 {
+  background-color: #305bb3;
+}
+
+#itemMenu3, #corpo1 {
+  background-color: #3c67bb;
+}
+
+ a {
+   color: white;
+   font-size: 16pt;
+ }
+
+ #labelMenu {
+   font-size: 8pt;
+   color: lightgray;
+   font-weight: 300;
+ }
+
+

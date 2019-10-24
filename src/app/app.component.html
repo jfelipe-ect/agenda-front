@@ -58,12 +58,14 @@
   <div class="container-fluid">
 <div class="row">
   <div class="col-2" id="corpo1">
-    <div class="row">
+
+    <!--MENU LATERAL FAVORITOS-->
+    <div class="row" id="itemMenu1">
         <div class="col-3">
 
             <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Active</a>
+                  <a class="nav-link active" href="#"><i class="fas fa-star fa-2x"></i></a>
                 </li>
               </ul>
 
@@ -72,99 +74,259 @@
             <ul class="nav flex-column">
                 <li class="nav-item">
                   <a class="nav-link active" href="#">FAVORITOS</a>
+                  <label id="labelMenu">AÇÕES RÁPIDAS</label>
                 </li>
               </ul>
 
         </div>
     </div>
 
-      <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
+    <!--MENU LATERAL CATÁLOGO-->
+    <div class="row" id="itemMenu2">
+        <div class="col-3">
 
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="fas fa-barcode fa-2x"></i></a>
+                </li>
+              </ul>
+
+        </div>
+        <div class="col-9">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">CATÁLOGO</a>
+                  <label id="labelMenu">PRODUTOS, SERVIÇOS, MARCAS</label>
+                </li>
+              </ul>
+
+        </div>
+    </div>
+
+    <!--MENU LATERAL VENDAS-->
+    <div class="row" id="itemMenu2">
+        <div class="col-3">
+
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="fas fa-money-check-alt fa-2x"></i></a>
+                </li>
+              </ul>
+
+        </div>
+        <div class="col-9">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">VENDAS</a>
+                  <label id="labelMenu">PEDIDOS, DEVOLUÇÕES, CLIENTES</label>
+                </li>
+              </ul>
+
+        </div>
+    </div>
+
+    <!--MENU LATERAL COMPRAS-->
+    <div class="row" id="itemMenu2">
+        <div class="col-3">
+
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="fas fa-shopping-basket fa-2x"></i></a>
+                </li>
+              </ul>
+
+        </div>
+        <div class="col-9">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">COMPRAS</a>
+                  <label id="labelMenu">ESTOQUE, FORNECEDORES, DEVOLUÇÃO</label>
+                </li>
+              </ul>
+
+        </div>
+    </div>
+
+    <!--MENU LATERAL FINANCEIRO-->
+    <div class="row" id="itemMenu2">
+        <div class="col-3">
+
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="fas fa-calculator fa-2x"></i></a>
+                </li>
+              </ul>
+
+        </div>
+        <div class="col-9">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">FINANCEIRO</a>
+                  <label id="labelMenu">CONTAS, FLUXO DE CAIXA, NOTAS</label>
+                </li>
+              </ul>
+
+        </div>
+    </div>
+
+    <!--MENU LATERAL RELATÓRIOS-->
+    <div class="row" id="itemMenu2">
+        <div class="col-3">
+
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="fas fa-chart-line fa-2x"></i></a>
+                </li>
+              </ul>
+
+        </div>
+        <div class="col-9">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">RELATÓRIOS</a>
+                  <label id="labelMenu">DRE GERENCIAL SIMPLIFICADA</label>
+                </li>
+              </ul>
+
+        </div>
+    </div>
+
+    <!--MENU LATERAL UP.STORE-->
+    <div class="row" id="itemMenu3">
+        <div class="col-3">
+
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="fas fa-puzzle-piece fa-2x"></i></a>
+                </li>
+              </ul>
+
+        </div>
+        <div class="col-9">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">UP.STORE</a>
+                  <label id="labelMenu">CERTIFICADOS E IMPRESSORAS</label>
+                </li>
+              </ul>
+
+        </div>
+    </div>
+
+    <!--MENU LATERAL CONFIGURAÇÕES-->
+    <div class="row" id="itemMenu3">
+        <div class="col-3">
+
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="fas fa-cogs fa-2x"></i></a>
+                </li>
+              </ul>
+
+        </div>
+        <div class="col-9">
+            <ul class="nav flex-column">
+                <li>
+                  <a class="nav-link active" href="#">CONFIGURAÇÕES</a>
+                  <label id="labelMenu">PDV, LOJA VIRTUAL PERMISSÕES</label>
+                </li>
+              </ul>
+
+        </div>
+    </div>
   </div>
   <div class="col-10">
-    <fieldset>
-      <legend>Agenda de Contatos</legend>
-      <div class="row">
-        <div class="col-6">
-          <form autocomplete="off" #contatoForm="ngForm" (submit)="salvar(contatoForm)">
-            <input type="hidden" name="id" #inputId="ngModel" [(ngModel)]="contato.id">
-            <div class="form-group">
-              <label for="nome">Nome</label>
-              <input type="text"
-                class="form-control"
-                id="nome"
-                name="nome"
-                #inputNome="ngModel"
-                [(ngModel)]="contato.nome"
-                autofocus>
-            </div>
-            <div class="form-group">
-              <label for="fone">Fone</label>
-              <input type="text"
-                class="form-control"
-                id="fone"
-                name="fone"
-                #inputFone="ngModel"
-                [(ngModel)]="contato.fone">
-            </div>
-            <div class="form-group">
-              <div class="row">
-                <div class="col-6">
-                  <button type="submit" class="btn btn-primary btn-block">
-                    <i class="fas fa-save"></i> Salvar
-                  </button>
-                </div>
-                <div class="col-6">
-                  <button type="reset" class="btn btn-danger btn-block">
-                    <i class="fas fa-redo-alt"></i> Limpar
-                  </button>
+
+      <div class="row" id="corpo2">
+        <div class="col-2">
+          <label id="labelCorpo2">PRODUTOS</label>
+        </div>
+        <div class="col-10">
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill text-sm-center nav-link active" href="#">PRODUTOS</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">SERVIÇOS</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">CATEGORIAS</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">MARCAS</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">UNIDADES DE MEDIDA</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">IMPRESSÃO DE ETIQUETAS</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">COMBOS</a>
+              </nav>
+        </div>
+
+    </div>
+
+      <div class="container" style="margin-top: 50px">
+      <fieldset>
+        <legend>Cadastro de Produtos</legend>
+        <div class="row">
+          <div class="col-12">
+            <form autocomplete="off" #contatoForm="ngForm" (submit)="salvar(contatoForm)">
+              <input type="hidden" name="id" #inputId="ngModel" [(ngModel)]="contato.id">
+              <div class="form-group">
+                <label for="nome">Descrição</label>
+                <input type="text"
+                  class="form-control"
+                  id="nome"
+                  name="nome"
+                  #inputNome="ngModel"
+                  [(ngModel)]="contato.nome"
+                  autofocus>
+              </div>
+              <div class="form-group">
+                <label for="fone">Código de Barras</label>
+                <input type="text"
+                  class="form-control"
+                  id="fone"
+                  name="fone"
+                  #inputFone="ngModel"
+                  [(ngModel)]="contato.fone">
+              </div>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-6">
+                    <button type="submit" class="btn btn-primary btn-block">
+                      <i class="fas fa-save"></i> Salvar
+                    </button>
+                  </div>
+                  <div class="col-6">
+                    <button type="reset" class="btn btn-danger btn-block">
+                      <i class="fas fa-redo-alt"></i> Limpar
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
+          <div class="col-12">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Descrição</th>
+                  <th>Código de Barras</th>
+                  <th>Ações</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let contato of contatos">
+                  <td>{{contato.id}}</td>
+                  <td>{{contato.nome}}</td>
+                  <td>{{contato.fone}}</td>
+                  <td>
+                    <button type="button" style="color: white" class="btn btn-success btn-sm" (onclick)="editar(contato.id)">
+                      <i class="fas fa-pencil-alt"></i>
+                    </button>
+                    <button type="button" style="color: white" class="btn btn-danger btn-sm">
+                      <i class="fas fa-trash-alt"></i>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-        <div class="col-6">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Nome</th>
-                <th>Fone</th>
-                <th>Ações</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr *ngFor="let contato of contatos">
-                <td>{{contato.id}}</td>
-                <td>{{contato.nome}}</td>
-                <td>{{contato.fone}}</td>
-                <td>
-                  <button type="button" style="color: white" class="btn btn-success btn-sm" (onclick)="editar(contato.id)">
-                    <i class="fas fa-pencil-alt"></i>
-                  </button>
-                  <button type="button" style="color: white" class="btn btn-danger btn-sm">
-                    <i class="fas fa-trash-alt"></i>
-                  </button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </fieldset>
+      </fieldset>
+    </div>
   </div>
 
 </div>
