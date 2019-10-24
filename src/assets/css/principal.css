@@ -82,4 +82,15 @@ p {
    font-weight: 300;
  }
 
+ #itemMenu1:hover, #itemMenu2:hover, #itemMenu3:hover {
+  align-items: center;
+  text-align: center;
+  background-color: orangered;
+  font-weight: bold;
+  height: 80px;
+}
+
+a:hover{
+  background-color: orangered;
+}
 
